@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+		</header>
+
+		<main class="page">
+			<div class="page__container">
+				<form action="#" method="POST" class="form">
+					<div class="form__row">
+						<label for="name" class="form__label">Your name</label>
+						<input id="name" name="name" autocomplete="off" required type="text" placeholder="Your name"
+							class="form__name">
+					</div>
+					<div class="form__row">
+						<label for="password" class="form__label">Your password</label>
+						<input id="password" name="password" autocomplete="off" required type="password"
+							placeholder="Your password" class="form__password">
+					</div>
+					<div class="form__row">
+						<div class="form__checkbox-1 checkbox-1">
+							<input id="car" type="checkbox" value="yes" name="car" class="checkbox__input-1">
+							<label for="car" class="checkbox__label-1">
+								<span class="checkbox__text-1">Do you have a car?</span>
+							</label>
+							<input id="bike" type="checkbox" value="yes" name="bike" class="checkbox__input-1">
+							<label for="bike" class="checkbox__label-1">
+								<span class="checkbox__text-1">Do you have a bike?</span>
+							</label>
+							<input id="motorbike" type="checkbox" value="yes" name="motorbike" class="checkbox__input-1">
+							<label for="motorbike" class="checkbox__label-1">
+								<span class="checkbox__text-1">Do you have a motorbike?</span>
+							</label>
+						</div>
+					</div>
+					<div class="form__row">
+						<label for="select" class="select__label">Your favourite color</label>
+						<div class="select__option">
+							<select id="select" class="select" name="color">
+								<option value="red">Red</option>
+								<option value="blue">Blue</option>
+								<option value="yellow">Yellow</option>
+								<option value="green">Green</option>
+								<option value="black">Black</option>
+							</select>
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__title">Your favourite animal</div>
+						<div class="form__radio radio">
+							<input id="radio-1" type="radio" name="animal" value="dog" class="radio__input">
+							<label for="radio-1" class="radio__label">Dog</label>
+						</div>
+						<div class="form__radio radio">
+							<input checked id="radio-2" type="radio" name="animal" value="horse" class="radio__input">
+							<label for="radio-2" class="radio__label">Horse</label>
+						</div>
+						<div class="form__radio radio">
+							<input id="radio-3" type="radio" name="animal" value="cat" class="radio__input">
+							<label for="radio-3" class="radio__label">Cat</label>
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__email-1">
+							<label for="email-1" class="label__email-1">Your email</label>
+							<input id="email-1" type="email" autocomplete="off" required name="email" placeholder="Your email"
+								class="input__email">
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__telnumber">
+							<label for="telnumber" class="label__telnumber">Your telephone number</label>
+							<input id="telnumber" autocomplete="off" required placeholder="Your telephone number"
+								name="telnumber" type="tel" class="input__telnumber">
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__number">
+							<label for="number" class="label__number">Enter the number of items</label>
+							<input id="number" placeholder="Number of items" type="number" class="input__number">
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__color">
+							<label for="color" class="label__color">Choose your favourite color</label>
+							<input id="color" type="color" name="color" class="input__color">
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__search">
+							<label for="search" class="label__search">What are you searching for</label>
+							<input id="search" type="search" name="search" class="input__search">
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__date">
+							<label for="date" class="label__date">Chose the date</label>
+							<input id="date" type="date" name="date" class="input__date">
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__range">
+							<input type="range" name="range" class="input__range">
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__file">
+							<input type="file" name="file" class="input__file">
+						</div>
+					</div>
+					<div class="form__button">
+						<button class="button__reset" type="reset"><span>Reset</span></button>
+						<button class="button__submit" type="submit"><span>Submit</span></button>
+					</div>
+				</form>
+			</div>
+
+
+			<div class="block">
+				<div class="block__container">
+					<div class="block__image">
+						<img src="img/illustration.svg" alt="Image">
+					</div>
+					<div class="block__content">
+						<div class="block__title title">
+							<div class="sub-title__text">Any questions?</div>
+							<h1 class="title__text">Drop us a line</h1>
+						</div>
+						<div class="block__form form">
+							<form action="#" method="POST" class="form__block">
+								<div class="name">
+									<div class="form__first-name">
+										<label for="firstname" class="label__first-name">First Name*</label>
+										<input id="firstname" name="firstname" required placeholder="Your first name" type="text"
+											class="input__first-name">
+									</div>
+									<div class="form__last-name">
+										<label for="last-name" class="label__last-name">Last Name*</label>
+										<input id="last-name" name="lastname" required placeholder="Your last name" type="text"
+											class="input__last-name">
+									</div>
+								</div>
+								<div class="contants">
+									<div class="form__email">
+										<label for="email-2" class="label__email">Email*</label>
+										<input id="email-2" name="email" required placeholder="Your working email" type="email"
+											class="input__email">
+									</div>
+									<div class="form__phone">
+										<label for="phone" class="label__phone">Phone</label>
+										<input id="phone" name="phone" required placeholder="Your phone number" type="tel"
+											class="input__phone">
+									</div>
+								</div>
+								<div class="form__text">
+									<label for="text" class="label__text">Message*</label>
+									<textarea name="text" id="text" cols="30" rows="10" placeholder="Your message"
+										class="textarea"></textarea>
+								</div>
+								<div class="checkbox-button">
+									<div class="checkbox">
+										<input id="checkbox" name="agreement" value="yes" type="checkbox" class="input__checkbox">
+										<label class="label__checkbox" for="checkbox">
+											<span class="checkbox__text">I agree to receive communications from Createx Online
+												School</span>
+										</label>
+									</div>
+									<a href="" class="button button--width"><span>Send message</span></a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<footer class="footer"></footer>
+	</div>
+
+</body>
+
+</html>
